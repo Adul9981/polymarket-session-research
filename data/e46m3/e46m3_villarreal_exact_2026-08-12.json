@@ -1,0 +1,1919 @@
+{
+  "markets": [
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-0-0",
+      "question": "Exact Score: CF Villarreal C 0 - 0 Levante UD?",
+      "condition_id": "0xa3abb41b7c84b9a4d34afe02c850c844284bbd12947939367e6ad55f853e6509",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "78320237111345057051003530492630699721605460334067532583554347390594696463028",
+        "121874946913678101469906959429073673106713816844936129999290680371518670205"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 0 - 0 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-0-1",
+      "question": "Exact Score: CF Villarreal C 0 - 1 Levante UD?",
+      "condition_id": "0xe3c918d9b570befbbde38d7ffb70d5eb532b6e4d468eb700920047bbe7a2e70f",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "19508603980511599234823602809181381124478088688378823259611076953075381773710",
+        "71984201424383199993570565288338721644371945300760617811896336419079908476480"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 0 - 1 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-0",
+      "question": "Exact Score: CF Villarreal C 1 - 0 Levante UD?",
+      "condition_id": "0xf240bb4b3d5d12500c8b2ed300feea03f2a556f12da00541389c6217daa472fd",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "112252789070040766917208287343621539672789128365370263914836002954945544194410",
+        "54410926049821125528240449635399681917423200992951761871414145862208839488679"
+      ],
+      "prices": [
+        "1",
+        "0"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 1 - 0 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-0-2",
+      "question": "Exact Score: CF Villarreal C 0 - 2 Levante UD?",
+      "condition_id": "0x059c2dce99af92038ad006e85be1664f46113571234a5639f029a06420dac27e",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "2520654877278654180990149370768063489470143026510261245729702569917865039343",
+        "57248794653608265195293126319833010651860164732227833841875056699525047012713"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 0 - 2 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "question": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "condition_id": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "58819560936071534019216403544568302228806381468879176419877679688490015142440",
+        "21968612843090210577223388176894276152982301295154208696173549497431378079532"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 1 - 1 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-2-0",
+      "question": "Exact Score: CF Villarreal C 2 - 0 Levante UD?",
+      "condition_id": "0x057ebd31abf0f161a885ea7074313ff39e87b3c554ae5dfd2a063c66fb103704",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "30651496178231570554031183083254342714075923751964001896740521064776914389226",
+        "110094892699021873353888671827371835032740600277157904857438622863102768175604"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 2 - 0 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-0-3",
+      "question": "Exact Score: CF Villarreal C 0 - 3 Levante UD?",
+      "condition_id": "0x68999ff1bc6e521627a5068d336fff495fc48a06dfaee37d544a672c8dc47b6d",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "70374217847918921393192200673437952666446609157759429392507767387563882185233",
+        "8871147826683718822775128538921992674991526914879673888533695827763591194912"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 0 - 3 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-2",
+      "question": "Exact Score: CF Villarreal C 1 - 2 Levante UD?",
+      "condition_id": "0x27fef4b34973c589485671b9adfa6ec0b62e7d8dfe677f227c6d171396d7451a",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "107464545088816818127877131540429585296195627287806164686067670745113040472115",
+        "108705780021391825148618391972692505866762863011731221170724958048378524336172"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 1 - 2 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-2-1",
+      "question": "Exact Score: CF Villarreal C 2 - 1 Levante UD?",
+      "condition_id": "0x7a3aa4b08136912b254d3a62768ea9e15e302d718737cda807d3ec84d7e20e91",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "74499428748837965630737763080686960950018060813308768094525069057818659959411",
+        "76198859848219305336801702826507578075183416017817350345111638057141102999410"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 2 - 1 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-3-0",
+      "question": "Exact Score: CF Villarreal C 3 - 0 Levante UD?",
+      "condition_id": "0x2e63e80976cc57ff8b67f837ecf064e2dd9f213b7aba871bdc8a6debd87a4484",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "91731300077013958324400692445846133786075769584154465882083306667321015258022",
+        "59192164519119138497199832663018186368563864546415221031619242458760711197838"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 3 - 0 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-3",
+      "question": "Exact Score: CF Villarreal C 1 - 3 Levante UD?",
+      "condition_id": "0x78104672162704939f4c6f752f6ea9e8d484eb0669b0f2ac90f74f0b18eeced1",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "46813711218647935285445497027052149191081035869140806049258961563005596077138",
+        "68359432542441633458656082722365388941054516271155075374302025224650959352352"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 1 - 3 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-2-2",
+      "question": "Exact Score: CF Villarreal C 2 - 2 Levante UD?",
+      "condition_id": "0x6e15699de0e9925615feffdcf62b759b83cbe573e2128ce0860b3d0936f0a53e",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "17570223357527564475683172496907792716257577654553005606696023259627392653385",
+        "49569520726808046784838297375396252856337448002923305070293721948909809026339"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 2 - 2 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-3-1",
+      "question": "Exact Score: CF Villarreal C 3 - 1 Levante UD?",
+      "condition_id": "0x84affabf953169a409f83a833d8c6749ec1f87fcef8b54de235719693e9f2699",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "49541720622935947101775509066333321113631608579448049474621085106659054141161",
+        "73731463280679753853743374182890119080672661358178039504768870942440264203375"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 3 - 1 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-2-3",
+      "question": "Exact Score: CF Villarreal C 2 - 3 Levante UD?",
+      "condition_id": "0xd10ccd60718f252310b7c9ea100ba4fa325cb6e8e1c51572e4a72429a1e39b61",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "9818583261646270307967564399515705615422155410469733702477183927159793093591",
+        "65624368069535683084046315298446755306679606360594557968824772462606045978048"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 2 - 3 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-3-2",
+      "question": "Exact Score: CF Villarreal C 3 - 2 Levante UD?",
+      "condition_id": "0x1a2a5d43e6e31b7df94802c576535785165b1ac4304bc10ab095c5805bb1e61d",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "27706838870314782449287394304118002056610605632396604550614886376880684679970",
+        "75044245913629252903868051697712749449834744909480701800840120231437635660861"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 3 - 2 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-3-3",
+      "question": "Exact Score: CF Villarreal C 3 - 3 Levante UD?",
+      "condition_id": "0x60857cfbb2822db883eabe9860539e9f663e9e56d09860fa8e14a206d177a54f",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "32677607739947597380953092540792934924855349962539847893624602985087739285429",
+        "82561985747100736218841981415633372109233579438357044009346340581429652288484"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: CF Villarreal C 3 - 3 Levante UD?"
+    },
+    {
+      "slug": "clf-vil-lu-2026-08-05-exact-score-any-other",
+      "question": "Exact Score: Any Other Score?",
+      "condition_id": "0x50c07ffba72f402f1dcb09e183be2436814ac4a42cfa81b263d56466eab25ef5",
+      "neg_risk": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "tokens": [
+        "61204090404420151843361513585930810946071144691789191190297934908270163786390",
+        "58793152705082183893894820906599383970454452928399916600291249790149044988358"
+      ],
+      "prices": [
+        "0",
+        "1"
+      ],
+      "outcomes": [
+        "Yes",
+        "No"
+      ],
+      "label": "Exact Score: Any Other Score?"
+    }
+  ],
+  "yes_tokens": {
+    "78320237111345057051003530492630699721605460334067532583554347390594696463028": {
+      "label": "Exact Score: CF Villarreal C 0 - 0 Levante UD?",
+      "price0": 0.0
+    },
+    "19508603980511599234823602809181381124478088688378823259611076953075381773710": {
+      "label": "Exact Score: CF Villarreal C 0 - 1 Levante UD?",
+      "price0": 0.0
+    },
+    "112252789070040766917208287343621539672789128365370263914836002954945544194410": {
+      "label": "Exact Score: CF Villarreal C 1 - 0 Levante UD?",
+      "price0": 1.0
+    },
+    "2520654877278654180990149370768063489470143026510261245729702569917865039343": {
+      "label": "Exact Score: CF Villarreal C 0 - 2 Levante UD?",
+      "price0": 0.0
+    },
+    "58819560936071534019216403544568302228806381468879176419877679688490015142440": {
+      "label": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "price0": 0.0
+    },
+    "30651496178231570554031183083254342714075923751964001896740521064776914389226": {
+      "label": "Exact Score: CF Villarreal C 2 - 0 Levante UD?",
+      "price0": 0.0
+    },
+    "70374217847918921393192200673437952666446609157759429392507767387563882185233": {
+      "label": "Exact Score: CF Villarreal C 0 - 3 Levante UD?",
+      "price0": 0.0
+    },
+    "107464545088816818127877131540429585296195627287806164686067670745113040472115": {
+      "label": "Exact Score: CF Villarreal C 1 - 2 Levante UD?",
+      "price0": 0.0
+    },
+    "74499428748837965630737763080686960950018060813308768094525069057818659959411": {
+      "label": "Exact Score: CF Villarreal C 2 - 1 Levante UD?",
+      "price0": 0.0
+    },
+    "91731300077013958324400692445846133786075769584154465882083306667321015258022": {
+      "label": "Exact Score: CF Villarreal C 3 - 0 Levante UD?",
+      "price0": 0.0
+    },
+    "46813711218647935285445497027052149191081035869140806049258961563005596077138": {
+      "label": "Exact Score: CF Villarreal C 1 - 3 Levante UD?",
+      "price0": 0.0
+    },
+    "17570223357527564475683172496907792716257577654553005606696023259627392653385": {
+      "label": "Exact Score: CF Villarreal C 2 - 2 Levante UD?",
+      "price0": 0.0
+    },
+    "49541720622935947101775509066333321113631608579448049474621085106659054141161": {
+      "label": "Exact Score: CF Villarreal C 3 - 1 Levante UD?",
+      "price0": 0.0
+    },
+    "9818583261646270307967564399515705615422155410469733702477183927159793093591": {
+      "label": "Exact Score: CF Villarreal C 2 - 3 Levante UD?",
+      "price0": 0.0
+    },
+    "27706838870314782449287394304118002056610605632396604550614886376880684679970": {
+      "label": "Exact Score: CF Villarreal C 3 - 2 Levante UD?",
+      "price0": 0.0
+    },
+    "32677607739947597380953092540792934924855349962539847893624602985087739285429": {
+      "label": "Exact Score: CF Villarreal C 3 - 3 Levante UD?",
+      "price0": 0.0
+    },
+    "61204090404420151843361513585930810946071144691789191190297934908270163786390": {
+      "label": "Exact Score: Any Other Score?",
+      "price0": 0.0
+    }
+  },
+  "hist": {
+    "78320237111345057051003530492630699721605460334067532583554347390594696463028": [
+      {
+        "t": 1785871809,
+        "p": 0.1805
+      },
+      {
+        "t": 1785872409,
+        "p": 0.18
+      },
+      {
+        "t": 1785873011,
+        "p": 0.1835
+      },
+      {
+        "t": 1785873609,
+        "p": 0.1805
+      },
+      {
+        "t": 1785874209,
+        "p": 0.1705
+      },
+      {
+        "t": 1785874809,
+        "p": 0.163
+      },
+      {
+        "t": 1785875411,
+        "p": 0.1285
+      },
+      {
+        "t": 1785876008,
+        "p": 0.0905
+      },
+      {
+        "t": 1785876612,
+        "p": 0.089
+      }
+    ],
+    "19508603980511599234823602809181381124478088688378823259611076953075381773710": [
+      {
+        "t": 1785871810,
+        "p": 0.045
+      },
+      {
+        "t": 1785872410,
+        "p": 0.045
+      },
+      {
+        "t": 1785873012,
+        "p": 0.045
+      },
+      {
+        "t": 1785873610,
+        "p": 0.045
+      },
+      {
+        "t": 1785874210,
+        "p": 0.045
+      },
+      {
+        "t": 1785874810,
+        "p": 0.045
+      },
+      {
+        "t": 1785875412,
+        "p": 0.045
+      },
+      {
+        "t": 1785876009,
+        "p": 0.045
+      },
+      {
+        "t": 1785876613,
+        "p": 0.045
+      }
+    ],
+    "112252789070040766917208287343621539672789128365370263914836002954945544194410": [
+      {
+        "t": 1785871807,
+        "p": 0.09
+      },
+      {
+        "t": 1785872408,
+        "p": 0.09
+      },
+      {
+        "t": 1785873010,
+        "p": 0.09
+      },
+      {
+        "t": 1785873608,
+        "p": 0.09
+      },
+      {
+        "t": 1785874208,
+        "p": 0.09
+      },
+      {
+        "t": 1785874808,
+        "p": 0.09
+      },
+      {
+        "t": 1785875410,
+        "p": 0.09
+      },
+      {
+        "t": 1785876008,
+        "p": 0.085
+      },
+      {
+        "t": 1785876611,
+        "p": 0.085
+      }
+    ],
+    "2520654877278654180990149370768063489470143026510261245729702569917865039343": [
+      {
+        "t": 1785871810,
+        "p": 0.026
+      },
+      {
+        "t": 1785872409,
+        "p": 0.026
+      },
+      {
+        "t": 1785873012,
+        "p": 0.026
+      },
+      {
+        "t": 1785873610,
+        "p": 0.026
+      },
+      {
+        "t": 1785874210,
+        "p": 0.03
+      },
+      {
+        "t": 1785874810,
+        "p": 0.0275
+      },
+      {
+        "t": 1785875412,
+        "p": 0.0285
+      },
+      {
+        "t": 1785876009,
+        "p": 0.0275
+      },
+      {
+        "t": 1785876613,
+        "p": 0.0325
+      }
+    ],
+    "58819560936071534019216403544568302228806381468879176419877679688490015142440": [
+      {
+        "t": 1785871808,
+        "p": 0.125
+      },
+      {
+        "t": 1785872408,
+        "p": 0.125
+      },
+      {
+        "t": 1785873010,
+        "p": 0.125
+      },
+      {
+        "t": 1785873608,
+        "p": 0.125
+      },
+      {
+        "t": 1785874208,
+        "p": 0.125
+      },
+      {
+        "t": 1785874808,
+        "p": 0.125
+      },
+      {
+        "t": 1785875410,
+        "p": 0.125
+      },
+      {
+        "t": 1785876008,
+        "p": 0.125
+      },
+      {
+        "t": 1785876611,
+        "p": 0.125
+      }
+    ],
+    "30651496178231570554031183083254342714075923751964001896740521064776914389226": [
+      {
+        "t": 1785871811,
+        "p": 0.065
+      },
+      {
+        "t": 1785872410,
+        "p": 0.065
+      },
+      {
+        "t": 1785873012,
+        "p": 0.065
+      },
+      {
+        "t": 1785873611,
+        "p": 0.065
+      },
+      {
+        "t": 1785874210,
+        "p": 0.065
+      },
+      {
+        "t": 1785874811,
+        "p": 0.065
+      },
+      {
+        "t": 1785875413,
+        "p": 0.065
+      },
+      {
+        "t": 1785876010,
+        "p": 0.065
+      },
+      {
+        "t": 1785876614,
+        "p": 0.07
+      }
+    ],
+    "70374217847918921393192200673437952666446609157759429392507767387563882185233": [
+      {
+        "t": 1785871809,
+        "p": 0.0165
+      },
+      {
+        "t": 1785872409,
+        "p": 0.0165
+      },
+      {
+        "t": 1785873011,
+        "p": 0.0165
+      },
+      {
+        "t": 1785873609,
+        "p": 0.0165
+      },
+      {
+        "t": 1785874209,
+        "p": 0.0145
+      },
+      {
+        "t": 1785874809,
+        "p": 0.0145
+      },
+      {
+        "t": 1785875411,
+        "p": 0.0145
+      },
+      {
+        "t": 1785876009,
+        "p": 0.015
+      },
+      {
+        "t": 1785876613,
+        "p": 0.015
+      }
+    ],
+    "107464545088816818127877131540429585296195627287806164686067670745113040472115": [
+      {
+        "t": 1785871810,
+        "p": 0.045
+      },
+      {
+        "t": 1785872410,
+        "p": 0.045
+      },
+      {
+        "t": 1785873012,
+        "p": 0.045
+      },
+      {
+        "t": 1785873610,
+        "p": 0.045
+      },
+      {
+        "t": 1785874210,
+        "p": 0.045
+      },
+      {
+        "t": 1785874810,
+        "p": 0.045
+      },
+      {
+        "t": 1785875413,
+        "p": 0.045
+      },
+      {
+        "t": 1785876009,
+        "p": 0.045
+      },
+      {
+        "t": 1785876614,
+        "p": 0.045
+      }
+    ],
+    "74499428748837965630737763080686960950018060813308768094525069057818659959411": [
+      {
+        "t": 1785871807,
+        "p": 0.08
+      },
+      {
+        "t": 1785872408,
+        "p": 0.08
+      },
+      {
+        "t": 1785873010,
+        "p": 0.08
+      },
+      {
+        "t": 1785873608,
+        "p": 0.08
+      },
+      {
+        "t": 1785874208,
+        "p": 0.085
+      },
+      {
+        "t": 1785874808,
+        "p": 0.085
+      },
+      {
+        "t": 1785875410,
+        "p": 0.085
+      },
+      {
+        "t": 1785876008,
+        "p": 0.085
+      },
+      {
+        "t": 1785876611,
+        "p": 0.085
+      }
+    ],
+    "91731300077013958324400692445846133786075769584154465882083306667321015258022": [
+      {
+        "t": 1785871809,
+        "p": 0.0395
+      },
+      {
+        "t": 1785872409,
+        "p": 0.0395
+      },
+      {
+        "t": 1785873011,
+        "p": 0.0395
+      },
+      {
+        "t": 1785873609,
+        "p": 0.0395
+      },
+      {
+        "t": 1785874209,
+        "p": 0.0405
+      },
+      {
+        "t": 1785874809,
+        "p": 0.041
+      },
+      {
+        "t": 1785875411,
+        "p": 0.041
+      },
+      {
+        "t": 1785876008,
+        "p": 0.041
+      },
+      {
+        "t": 1785876612,
+        "p": 0.041
+      }
+    ],
+    "46813711218647935285445497027052149191081035869140806049258961563005596077138": [
+      {
+        "t": 1785871809,
+        "p": 0.023
+      },
+      {
+        "t": 1785872409,
+        "p": 0.023
+      },
+      {
+        "t": 1785873011,
+        "p": 0.023
+      },
+      {
+        "t": 1785873609,
+        "p": 0.023
+      },
+      {
+        "t": 1785874209,
+        "p": 0.022
+      },
+      {
+        "t": 1785874809,
+        "p": 0.0225
+      },
+      {
+        "t": 1785875411,
+        "p": 0.0225
+      },
+      {
+        "t": 1785876009,
+        "p": 0.023
+      },
+      {
+        "t": 1785876613,
+        "p": 0.023
+      }
+    ],
+    "17570223357527564475683172496907792716257577654553005606696023259627392653385": [
+      {
+        "t": 1785871810,
+        "p": 0.0655
+      },
+      {
+        "t": 1785872410,
+        "p": 0.0645
+      },
+      {
+        "t": 1785873012,
+        "p": 0.0645
+      },
+      {
+        "t": 1785873610,
+        "p": 0.0645
+      },
+      {
+        "t": 1785874210,
+        "p": 0.0665
+      },
+      {
+        "t": 1785874810,
+        "p": 0.067
+      },
+      {
+        "t": 1785875413,
+        "p": 0.069
+      },
+      {
+        "t": 1785876009,
+        "p": 0.071
+      },
+      {
+        "t": 1785876614,
+        "p": 0.071
+      }
+    ],
+    "49541720622935947101775509066333321113631608579448049474621085106659054141161": [
+      {
+        "t": 1785871810,
+        "p": 0.045
+      },
+      {
+        "t": 1785872410,
+        "p": 0.0445
+      },
+      {
+        "t": 1785873012,
+        "p": 0.046
+      },
+      {
+        "t": 1785873611,
+        "p": 0.0415
+      },
+      {
+        "t": 1785874210,
+        "p": 0.046
+      },
+      {
+        "t": 1785874811,
+        "p": 0.046
+      },
+      {
+        "t": 1785875413,
+        "p": 0.046
+      },
+      {
+        "t": 1785876010,
+        "p": 0.047
+      },
+      {
+        "t": 1785876614,
+        "p": 0.047
+      }
+    ],
+    "9818583261646270307967564399515705615422155410469733702477183927159793093591": [
+      {
+        "t": 1785871810,
+        "p": 0.019
+      },
+      {
+        "t": 1785872409,
+        "p": 0.019
+      },
+      {
+        "t": 1785873012,
+        "p": 0.019
+      },
+      {
+        "t": 1785873610,
+        "p": 0.019
+      },
+      {
+        "t": 1785874210,
+        "p": 0.018
+      },
+      {
+        "t": 1785874810,
+        "p": 0.0185
+      },
+      {
+        "t": 1785875412,
+        "p": 0.0185
+      },
+      {
+        "t": 1785876009,
+        "p": 0.019
+      },
+      {
+        "t": 1785876613,
+        "p": 0.019
+      }
+    ],
+    "27706838870314782449287394304118002056610605632396604550614886376880684679970": [
+      {
+        "t": 1785871810,
+        "p": 0.026
+      },
+      {
+        "t": 1785872410,
+        "p": 0.0265
+      },
+      {
+        "t": 1785873012,
+        "p": 0.026
+      },
+      {
+        "t": 1785873610,
+        "p": 0.026
+      },
+      {
+        "t": 1785874210,
+        "p": 0.026
+      },
+      {
+        "t": 1785874810,
+        "p": 0.0305
+      },
+      {
+        "t": 1785875412,
+        "p": 0.0295
+      },
+      {
+        "t": 1785876009,
+        "p": 0.03
+      },
+      {
+        "t": 1785876613,
+        "p": 0.03
+      }
+    ],
+    "32677607739947597380953092540792934924855349962539847893624602985087739285429": [
+      {
+        "t": 1785871810,
+        "p": 0.0205
+      },
+      {
+        "t": 1785872410,
+        "p": 0.0205
+      },
+      {
+        "t": 1785873012,
+        "p": 0.02
+      },
+      {
+        "t": 1785873610,
+        "p": 0.02
+      },
+      {
+        "t": 1785874210,
+        "p": 0.019
+      },
+      {
+        "t": 1785874810,
+        "p": 0.019
+      },
+      {
+        "t": 1785875412,
+        "p": 0.018
+      },
+      {
+        "t": 1785876009,
+        "p": 0.0195
+      },
+      {
+        "t": 1785876613,
+        "p": 0.0195
+      }
+    ],
+    "61204090404420151843361513585930810946071144691789191190297934908270163786390": [
+      {
+        "t": 1785871808,
+        "p": 0.165
+      },
+      {
+        "t": 1785872408,
+        "p": 0.16
+      },
+      {
+        "t": 1785873011,
+        "p": 0.155
+      },
+      {
+        "t": 1785873609,
+        "p": 0.15
+      },
+      {
+        "t": 1785874208,
+        "p": 0.15
+      },
+      {
+        "t": 1785874809,
+        "p": 0.145
+      },
+      {
+        "t": 1785875411,
+        "p": 0.15
+      },
+      {
+        "t": 1785876008,
+        "p": 0.15
+      },
+      {
+        "t": 1785876612,
+        "p": 0.115
+      }
+    ]
+  },
+  "sump_at": [
+    {
+      "ts": 1785872883,
+      "sump": 1.069,
+      "n": 17
+    },
+    {
+      "ts": 1785872931,
+      "sump": 1.069,
+      "n": 17
+    },
+    {
+      "ts": 1785872946,
+      "sump": 1.069,
+      "n": 17
+    },
+    {
+      "ts": 1785872958,
+      "sump": 1.069,
+      "n": 17
+    },
+    {
+      "ts": 1785873027,
+      "sump": 1.069,
+      "n": 17
+    },
+    {
+      "ts": 1785873042,
+      "sump": 1.069,
+      "n": 17
+    },
+    {
+      "ts": 1785873054,
+      "sump": 1.069,
+      "n": 17
+    },
+    {
+      "ts": 1785874149,
+      "sump": 1.058,
+      "n": 17
+    },
+    {
+      "ts": 1785874176,
+      "sump": 1.058,
+      "n": 17
+    },
+    {
+      "ts": 1785875270,
+      "sump": 1.021,
+      "n": 17
+    },
+    {
+      "ts": 1785875280,
+      "sump": 1.021,
+      "n": 17
+    },
+    {
+      "ts": 1785875295,
+      "sump": 1.021,
+      "n": 17
+    }
+  ],
+  "activity": [
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785931883,
+      "conditionId": "0xf240bb4b3d5d12500c8b2ed300feea03f2a556f12da00541389c6217daa472fd",
+      "type": "REDEEM",
+      "size": 112.1816,
+      "usdcSize": 112.1816,
+      "transactionHash": "0x144d4c921976f65af524285577af3c22f71d618f3b7b9f388296ad01020ddf00",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 0,
+      "title": "Exact Score: CF Villarreal C 1 - 0 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-0",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "Yes",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785894732,
+      "conditionId": "0xa3abb41b7c84b9a4d34afe02c850c844284bbd12947939367e6ad55f853e6509",
+      "type": "MERGE",
+      "size": 0.010831,
+      "usdcSize": 0.010831,
+      "transactionHash": "0x6e081f536c42a502c28c5184f5ff98c59d45db0f0f61b4aa8a01b7e929f5f180",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "Exact Score: CF Villarreal C 0 - 0 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-0-0",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785875295,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 0.011038,
+      "usdcSize": 0.011038,
+      "transactionHash": "0x227ad7829ea0fd64817ba9abb4bf66f7e948a14cb840b7815c93b65dbb8fc396",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785875280,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 0.007903,
+      "usdcSize": 0.015806,
+      "transactionHash": "0x5a69e6188dc9aeb4c1b5a53566a09f57be9cf714bf7fd98a47c8aae2abcbb0b9",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785875270,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 24.647659,
+      "usdcSize": 73.942977,
+      "transactionHash": "0x8beaa5c415d71a1a8596abdf26c36deeef1d7ef209455b6d969631090ab3b653",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785875246,
+      "conditionId": "0x6e15699de0e9925615feffdcf62b759b83cbe573e2128ce0860b3d0936f0a53e",
+      "type": "MERGE",
+      "size": 0.017578,
+      "usdcSize": 0.017578,
+      "transactionHash": "0x5ce49f15d96609694c5f89ffc0e78f8272a8abb66914b2a3b317a744dd72a00e",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "Exact Score: CF Villarreal C 2 - 2 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-2-2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785875246,
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "type": "MERGE",
+      "size": 0.003521,
+      "usdcSize": 0.003521,
+      "transactionHash": "0x5ce49f15d96609694c5f89ffc0e78f8272a8abb66914b2a3b317a744dd72a00e",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785875225,
+      "conditionId": "0xa3abb41b7c84b9a4d34afe02c850c844284bbd12947939367e6ad55f853e6509",
+      "type": "TRADE",
+      "size": 24.665126,
+      "usdcSize": 21.503109,
+      "transactionHash": "0x089f4a0c6607b634042a8474b197a2eef1f209187352c0debedcc5a9429691a2",
+      "price": 0.8659999953,
+      "asset": "121874946913678101469906959429073673106713816844936129999290680371518670205",
+      "side": "BUY",
+      "outcomeIndex": 1,
+      "title": "Exact Score: CF Villarreal C 0 - 0 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-0-0",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785874176,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 0.003521,
+      "usdcSize": 0.003521,
+      "transactionHash": "0x701f193b1d68bef0d581f94d15963c9bdbd4ae3240411204187db523afb98f73",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785874164,
+      "conditionId": "0x6e15699de0e9925615feffdcf62b759b83cbe573e2128ce0860b3d0936f0a53e",
+      "type": "MERGE",
+      "size": 12.523859,
+      "usdcSize": 12.523859,
+      "transactionHash": "0x299343a55e467157325f976d6ad8af9e800945ddc93d15d542aa5d8e6761d08f",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "Exact Score: CF Villarreal C 2 - 2 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-2-2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785874149,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 12.521679,
+      "usdcSize": 25.043358,
+      "transactionHash": "0xbb25f8c206d15de9e21f8a96f6484d6e157e6cbb5e687a6c03b41e56a39c7a8d",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785874137,
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "type": "MERGE",
+      "size": 0.001046,
+      "usdcSize": 0.001046,
+      "transactionHash": "0xa5e01507de557df7cc0ca671d0025f4888b85b4001fcda6ebebdf33a4773a263",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785874131,
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "type": "TRADE",
+      "size": 12.522725,
+      "usdcSize": 11.086108,
+      "transactionHash": "0x9a8b4aa662d672c01968b29434ec44ff025603c05b2c563c469468b8ebede6e0",
+      "price": 0.88,
+      "asset": "21968612843090210577223388176894276152982301295154208696173549497431378079532",
+      "side": "BUY",
+      "outcomeIndex": 1,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785873054,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 0.001046,
+      "usdcSize": 0.001046,
+      "transactionHash": "0xa61f711fa1115e95b8883cd61fe5444e67f340de12e709dde1a42d16c24bf7da",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785873042,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 0.015191,
+      "usdcSize": 0.030382,
+      "transactionHash": "0xad3cd63b7004688ca3a6365537cc344b0503219fce3eee3fd826223b16c75ee1",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785873027,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 24.983763,
+      "usdcSize": 74.951289,
+      "transactionHash": "0xa82c2736e2fc5becdbd8622c42a98027bf074701576bce9803b05c6e34444a3d",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785873011,
+      "conditionId": "0x6e15699de0e9925615feffdcf62b759b83cbe573e2128ce0860b3d0936f0a53e",
+      "type": "MERGE",
+      "size": 0.010953,
+      "usdcSize": 0.010953,
+      "transactionHash": "0xa09fd58cba47d70c1f645a36c2fbf64e5b3c07c55adc2164d1a91b41e6e9b367",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "Exact Score: CF Villarreal C 2 - 2 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-2-2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785873011,
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "type": "MERGE",
+      "size": 0.001046,
+      "usdcSize": 0.001046,
+      "transactionHash": "0xa09fd58cba47d70c1f645a36c2fbf64e5b3c07c55adc2164d1a91b41e6e9b367",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785872999,
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "type": "TRADE",
+      "size": 25,
+      "usdcSize": 22.37237,
+      "transactionHash": "0xcf867dfbad78b52eb143efc60e746f8bcb73ca47b1dfd84862d44e067656d77d",
+      "price": 0.89,
+      "asset": "21968612843090210577223388176894276152982301295154208696173549497431378079532",
+      "side": "BUY",
+      "outcomeIndex": 1,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785872958,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 0.001046,
+      "usdcSize": 0.001046,
+      "transactionHash": "0x1f6c2842f92ad725e3c94502d5dba6cdeea23564e3de143880bb2d5c211f0e7a",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785872946,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 0.009907,
+      "usdcSize": 0.019814,
+      "transactionHash": "0xff20b2db685f4cecc7ec216d9e6d55e82afdd43cd3120a057f2febc34e1195cf",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785872931,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 24.984131,
+      "usdcSize": 74.952393,
+      "transactionHash": "0x89e0aab43aef579e4df05180813725567af891c838ec782938aae6ab5850e91f",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785872919,
+      "conditionId": "0x60857cfbb2822db883eabe9860539e9f663e9e56d09860fa8e14a206d177a54f",
+      "type": "MERGE",
+      "size": 24.994716,
+      "usdcSize": 24.994716,
+      "transactionHash": "0xd597ea09b3f7c23fc75e6071e0d7004c5be79f591021c44fae5d662c3c4e9d03",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "Exact Score: CF Villarreal C 3 - 3 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-3-3",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785872919,
+      "conditionId": "0xa3abb41b7c84b9a4d34afe02c850c844284bbd12947939367e6ad55f853e6509",
+      "type": "MERGE",
+      "size": 24.994716,
+      "usdcSize": 24.994716,
+      "transactionHash": "0xd597ea09b3f7c23fc75e6071e0d7004c5be79f591021c44fae5d662c3c4e9d03",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "Exact Score: CF Villarreal C 0 - 0 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-0-0",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785872883,
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "type": "TRADE",
+      "size": 7.764036,
+      "usdcSize": 6.947992,
+      "transactionHash": "0xd3a9ef74d5f2405fdc72cdc7ee2f6dd367ba197a629b70e04ac6553be6242dc1",
+      "price": 0.8899999948,
+      "asset": "21968612843090210577223388176894276152982301295154208696173549497431378079532",
+      "side": "BUY",
+      "outcomeIndex": 1,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785872883,
+      "conditionId": "0xbb68ba35284946d08f4353fb136e7545644c49bef18cf53053a35c4303cb5300",
+      "type": "CONVERSION",
+      "size": 24.994716,
+      "usdcSize": 24.994716,
+      "transactionHash": "0xffc8f8fdbe4ec959c3248ddf0d2569be23c5bfe03215a954de47ccae9d445d02",
+      "price": 0,
+      "asset": "",
+      "side": "",
+      "outcomeIndex": 999,
+      "title": "CF Villarreal C vs. Levante UD - Exact Score",
+      "slug": "clf-vil-lu-2026-08-05-exact-score",
+      "icon": "",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785872873,
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "type": "TRADE",
+      "size": 17.224718,
+      "usdcSize": 15.414309,
+      "transactionHash": "0xc65326875ef8557b12144748ee58d47a954543645176c1c5aae966f5d0c902dd",
+      "price": 0.8899999988,
+      "asset": "21968612843090210577223388176894276152982301295154208696173549497431378079532",
+      "side": "BUY",
+      "outcomeIndex": 1,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "timestamp": 1785872855,
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "type": "TRADE",
+      "size": 25,
+      "usdcSize": 22.37237,
+      "transactionHash": "0x417c116874ef00523e46834eb0043b20a44f37c5014d31dc5f78373e03f306b2",
+      "price": 0.89,
+      "asset": "21968612843090210577223388176894276152982301295154208696173549497431378079532",
+      "side": "BUY",
+      "outcomeIndex": 1,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": ""
+    }
+  ],
+  "trades": [
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "side": "BUY",
+      "asset": "121874946913678101469906959429073673106713816844936129999290680371518670205",
+      "conditionId": "0xa3abb41b7c84b9a4d34afe02c850c844284bbd12947939367e6ad55f853e6509",
+      "size": 24.665126,
+      "price": 0.8659999953,
+      "timestamp": 1785875225,
+      "title": "Exact Score: CF Villarreal C 0 - 0 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-0-0",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x089f4a0c6607b634042a8474b197a2eef1f209187352c0debedcc5a9429691a2"
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "side": "BUY",
+      "asset": "21968612843090210577223388176894276152982301295154208696173549497431378079532",
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "size": 12.522725,
+      "price": 0.88,
+      "timestamp": 1785874131,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x9a8b4aa662d672c01968b29434ec44ff025603c05b2c563c469468b8ebede6e0"
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "side": "BUY",
+      "asset": "21968612843090210577223388176894276152982301295154208696173549497431378079532",
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "size": 25,
+      "price": 0.89,
+      "timestamp": 1785872999,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xcf867dfbad78b52eb143efc60e746f8bcb73ca47b1dfd84862d44e067656d77d"
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "side": "BUY",
+      "asset": "21968612843090210577223388176894276152982301295154208696173549497431378079532",
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "size": 7.764036,
+      "price": 0.8899999948,
+      "timestamp": 1785872883,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd3a9ef74d5f2405fdc72cdc7ee2f6dd367ba197a629b70e04ac6553be6242dc1"
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "side": "BUY",
+      "asset": "21968612843090210577223388176894276152982301295154208696173549497431378079532",
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "size": 17.224718,
+      "price": 0.8899999988,
+      "timestamp": 1785872873,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc65326875ef8557b12144748ee58d47a954543645176c1c5aae966f5d0c902dd"
+    },
+    {
+      "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "side": "BUY",
+      "asset": "21968612843090210577223388176894276152982301295154208696173549497431378079532",
+      "conditionId": "0xe860a0c559b2a40e7ae3b8f883754dd8c3d45ec9e54f391c5a30ac0211d5191f",
+      "size": 25,
+      "price": 0.89,
+      "timestamp": 1785872855,
+      "title": "Exact Score: CF Villarreal C 1 - 1 Levante UD?",
+      "slug": "clf-vil-lu-2026-08-05-exact-score-1-1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/soccer ball-bba4025f77.png",
+      "eventSlug": "clf-vil-lu-2026-08-05-exact-score",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "e46m3",
+      "pseudonym": "Grown-Fence",
+      "bio": "orchestro:G33834",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x417c116874ef00523e46834eb0043b20a44f37c5014d31dc5f78373e03f306b2"
+    }
+  ],
+  "sump_grid": [
+    {
+      "t": 1785871800,
+      "sump": 1.0765
+    },
+    {
+      "t": 1785872400,
+      "sump": 1.07
+    },
+    {
+      "t": 1785873000,
+      "sump": 1.069
+    },
+    {
+      "t": 1785873600,
+      "sump": 1.0565
+    },
+    {
+      "t": 1785874200,
+      "sump": 1.058
+    },
+    {
+      "t": 1785874800,
+      "sump": 1.0495
+    },
+    {
+      "t": 1785875400,
+      "sump": 1.021
+    },
+    {
+      "t": 1785876000,
+      "sump": 0.9835
+    },
+    {
+      "t": 1785876600,
+      "sump": 0.957
+    }
+  ]
+}

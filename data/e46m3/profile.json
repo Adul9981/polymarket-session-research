@@ -1,0 +1,27 @@
+{
+  "username": "e46m3",
+  "pseudonym": "Grown-Fence",
+  "profile_url": "https://polymarket.com/zh/@e46m3",
+  "proxy_wallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+  "traded_markets": 29174,
+  "role_estimate": "自动化完整集套利/做市机器人（观察结论）",
+  "related_addresses": {
+    "counterparty_or_treasury": "0xa5ef39c3d3e10d0b270233af41cac69796b12966",
+    "safe_tx_signers_observed": [
+      "0xf105cd06bf6ff2e8c9233a64ebf79ab85034709b",
+      "0x68d46014e4d278a7c390b3246031990065d019a0",
+      "0x256b1b01021d9e91e9ca4e9e1516d206fad149c8",
+      "0xbefc8a81673d173f3ef2365de5dad2bee4bb111a",
+      "0x72b263c452d99782220fc27e4f62000f9c1c1d13"
+    ]
+  },
+  "contracts": {
+    "neg_risk_adapter": "0xada2005600dec949baf300f4c6120000bdb6eaab",
+    "neg_risk_exchange_or_helper": "0xd91e80cf2e7be2e162c6513ced06f1dd0da35296",
+    "conditional_tokens_ctf": "0x4d97dcd97ec945f40cf65f87097ace5ea0476045",
+    "usdc_e": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+    "pusd_wrapper": "0xc011a7e12a19f7b1f670d46f03b03f3342e82dfb",
+    "neg_risk_collateral": "0x3a3bd7bb9528e159577f7c2e685cc81a765002e2"
+  },
+  "snapshot_date": "2026-08-12"
+}

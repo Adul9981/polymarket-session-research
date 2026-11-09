@@ -1,0 +1,71 @@
+{
+  "cross_first_touch_btc_20c": {
+    "n_windows_joined": 40,
+    "ask_touch_first_side": {
+      "wins": 8,
+      "n": 40
+    },
+    "fill_deep_first_side": {
+      "wins": 15,
+      "n": 40
+    },
+    "same_first_side": 0
+  },
+  "data": {
+    "fills": 285342,
+    "windows_in_fills": 40,
+    "deep_limit_cents": 20
+  },
+  "classes": {
+    "BOTH": 19,
+    "ONE": 21
+  },
+  "first_deep_side_win_rates": {
+    "all": {
+      "wins": 15,
+      "n": 40,
+      "rate": 0.375,
+      "wilson_low": 0.2422
+    },
+    "both_sides": {
+      "wins": 15,
+      "n": 19,
+      "rate": 0.7895,
+      "wilson_low": 0.5667
+    },
+    "one_side": {
+      "wins": 0,
+      "n": 21,
+      "rate": 0.0,
+      "wilson_low": 0.0
+    }
+  },
+  "one_share_ev_cents_per_trigger": {
+    "all": 18.83,
+    "both_sides": 59.68,
+    "one_side": -18.14
+  },
+  "realized_deep_buy_hold": {
+    "fills": 44884,
+    "invested_usd": 91368.06,
+    "pnl_usd": 57923.14,
+    "return_pct": 63.4,
+    "windows_with_deep_buys": 40,
+    "positive_windows": 14,
+    "top3_windows_pnl_share": 1.1023,
+    "top3_windows": [
+      {
+        "window_ts": 1786941600,
+        "pnl_usd": 23323.91
+      },
+      {
+        "window_ts": 1786974000,
+        "pnl_usd": 22410.43
+      },
+      {
+        "window_ts": 1786974300,
+        "pnl_usd": 18113.07
+      }
+    ]
+  }
+}

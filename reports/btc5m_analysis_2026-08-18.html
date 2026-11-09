@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BTC 5 分钟涨跌盘 · 三种玩法复盘与我们的选择</title>
+<style>
+  :root {
+    --bg: #f5f5f7;
+    --card: #ffffff;
+    --ink: #1d1d1f;
+    --sub: #6e6e73;
+    --line: #e8e8ed;
+    --accent: #0a84ff;
+    --accent-soft: #e8f1ff;
+    --green: #34c759;
+    --green-soft: #e6f9ec;
+    --red: #ff3b30;
+    --red-soft: #ffeceb;
+    --amber: #ff9f0a;
+    --amber-soft: #fff4e0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro SC", "PingFang SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+    line-height: 1.7;
+    padding: 32px 20px 64px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; }
+
+  /* 头部 */
+  header { text-align: center; padding: 24px 0 36px; }
+  .kicker {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .12em;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+  }
+  h1 { font-size: clamp(26px, 4.6vw, 40px); font-weight: 700; letter-spacing: -.02em; }
+  .subtitle { color: var(--sub); font-size: 16px; margin-top: 10px; }
+
+  /* 结论横幅 */
+  .hero-card {
+    background: linear-gradient(135deg, #0a84ff 0%, #5e5ce6 100%);
+    color: #fff;
+    border-radius: 22px;
+    padding: 28px 30px;
+    margin-bottom: 28px;
+    box-shadow: 0 12px 30px rgba(10, 132, 255, .25);
+  }
+  .hero-card .tag { font-size: 13px; opacity: .85; letter-spacing: .08em; font-weight: 600; }
+  .hero-card p { font-size: clamp(17px, 2.6vw, 21px); font-weight: 600; margin-top: 6px; line-height: 1.55; }
+
+  /* 通用卡片 */
+  .card {
+    background: var(--card);
+    border-radius: 20px;
+    padding: 28px;
+    margin-bottom: 22px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    border: 1px solid rgba(0,0,0,.02);
+    animation: fadeUp .55s ease both;
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    margin-bottom: 6px;
+  }
+  h2 .no {
+    color: var(--accent);
+    margin-right: 8px;
+  }
+  .lead { color: var(--sub); font-size: 15px; margin-bottom: 20px; }
+
+  /* 统计格 */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin: 18px 0;
+  }
+  .stat {
+    background: #fafafc;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 14px 16px;
+  }
+  .stat .v { font-size: 21px; font-weight: 700; }
+  .stat .k { font-size: 12.5px; color: var(--sub); margin-top: 2px; }
+  .stat.up .v { color: var(--green); }
+  .stat.down .v { color: var(--red); }
+  .stat.blue .v { color: var(--accent); }
+
+  /* 玩法卡片 */
+  .mode {
+    border-radius: 18px;
+    padding: 22px;
+    margin: 14px 0;
+    border: 1px solid var(--line);
+    background: #fdfdfd;
+  }
+  .mode h3 { font-size: 18px; font-weight: 700; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .pill { font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
+  .pill.m { background: var(--amber-soft); color: #b25e00; }
+  .pill.c { background: var(--green-soft); color: #1f8a3d; }
+  .pill.mm { background: var(--accent-soft); color: #0057b3; }
+  .mode .num { font-size: 30px; font-weight: 800; margin: 10px 0 2px; }
+  .mode .num small { font-size: 14px; font-weight: 500; color: var(--sub); }
+  .mode p { color: #3a3a3c; font-size: 15px; margin: 8px 0; }
+  .verdict { margin-top: 10px; padding: 10px 14px; border-radius: 12px; font-size: 14px; font-weight: 600; }
+  .verdict.no { background: var(--red-soft); color: #c11a10; }
+  .verdict.maybe { background: var(--amber-soft); color: #9a5200; }
+  .verdict.yes { background: var(--green-soft); color: #1f8a3d; }
+
+  /* 表格 */
+  .tbl-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 640px; }
+  th, td { padding: 11px 12px; text-align: left; border-bottom: 1px solid var(--line); }
+  th { color: var(--sub); font-weight: 600; font-size: 13px; background: #fafafc; }
+  td.hl { font-weight: 700; color: var(--green); }
+  td.bad { font-weight: 700; color: var(--red); }
+  td.warn { font-weight: 700; color: var(--amber); }
+
+  /* 条形图 */
+  .bars { margin: 16px 0 4px; }
+  .bar-row { display: grid; grid-template-columns: 86px 1fr 74px; align-items: center; gap: 10px; margin: 9px 0; }
+  .bar-row .lbl { font-size: 13px; color: #3a3a3c; font-weight: 600; }
+  .bar-row .track { height: 22px; background: #f2f2f5; border-radius: 6px; overflow: hidden; }
+  .bar-row .fill { height: 100%; border-radius: 6px; width: 0; animation: grow 1s .15s ease both; }
+  .bar-row .val { font-size: 13px; font-weight: 700; text-align: right; }
+  @keyframes grow { from { width: 0; } }
+  .legend { display: flex; gap: 18px; font-size: 13px; color: var(--sub); margin-top: 12px; flex-wrap: wrap; }
+  .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+
+  /* 环形图 */
+  .donuts { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin: 18px 0 6px; }
+  .donut-box { text-align: center; }
+  .donut-box .cap { font-size: 14px; font-weight: 600; margin-top: 10px; }
+  .donut-box .sub2 { font-size: 12.5px; color: var(--sub); }
+  .ring { transform: rotate(-90deg); }
+  .ring circle { fill: none; stroke-width: 14; stroke-linecap: round; }
+  .ring .bg { stroke: #f0f0f3; }
+  .ring .fg { stroke-dasharray: 0 339.3; animation: ring 1.2s .3s ease both; }
+  @keyframes ring { to { stroke-dasharray: var(--dash) 339.3; } }
+
+  /* 步骤 */
+  .steps { counter-reset: step; }
+  .step { position: relative; padding: 0 0 22px 54px; }
+  .step:not(:last-child)::before {
+    content: ""; position: absolute; left: 19px; top: 42px; bottom: -2px; width: 2px;
+    background: var(--line);
+  }
+  .step::after {
+    counter-increment: step;
+    content: counter(step);
+    position: absolute; left: 0; top: 2px;
+    width: 40px; height: 40px; border-radius: 50%;
+    background: var(--accent); color: #fff;
+    font-weight: 700; font-size: 17px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 12px rgba(10,132,255,.3);
+  }
+  .step h3 { font-size: 17px; font-weight: 700; }
+  .step .who { font-size: 13px; color: var(--accent); font-weight: 600; margin-bottom: 4px; }
+  .step p { font-size: 14.5px; color: #3a3a3c; margin: 6px 0; }
+  .step ul { margin: 6px 0 0 20px; font-size: 14px; color: #3a3a3c; }
+
+  /* 警示框 */
+  .warn-box {
+    background: var(--amber-soft);
+    border-left: 4px solid var(--amber);
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin: 14px 0;
+    font-size: 14.5px;
+  }
+  .warn-box b { color: #8a4b00; }
+
+  /* 页脚 */
+  footer {
+    color: var(--sub);
+    font-size: 12.5px;
+    text-align: center;
+    margin-top: 36px;
+    line-height: 1.9;
+  }
+  footer code { background: #ececf0; padding: 2px 7px; border-radius: 6px; font-size: 11.5px; }
+
+  @media (max-width: 560px) {
+    body { padding: 20px 12px 48px; }
+    .card { padding: 20px; }
+    .bar-row { grid-template-columns: 74px 1fr 64px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <span class="kicker">POLYMARKET · BTC 5M UPDOWN</span>
+    <h1>BTC 5 分钟涨跌盘<br>三种玩法复盘与我们的选择</h1>
+    <p class="subtitle">基于 2026-08-17 全天 144 个窗口 · 28.5 万笔成交的实测数据</p>
+  </header>
+
+  <div class="hero-card">
+    <div class="tag">一句话结论</div>
+    <p>三种玩法里，崩盘型最适合我们：不依赖毫秒级速度、不需要做市基建、小资金就能参与。但它目前是「最有希望的假说」，必须先回测验证触发条件，再拿小额资金试水。</p>
+  </div>
+
+  <!-- 数据快照 -->
+  <div class="card">
+    <h2><span class="no">0</span>我们拆了什么</h2>
+    <p class="lead">对 BTC 5 分钟涨跌盘取最近 12 小时成交量前 40 的窗口，聚合全部成交与钱包盈亏。</p>
+    <div class="stats">
+      <div class="stat blue"><div class="v">144</div><div class="k">12 小时窗口数</div></div>
+      <div class="stat blue"><div class="v">$659 万</div><div class="k">窗口总成交额</div></div>
+      <div class="stat blue"><div class="v">28.5 万</div><div class="k">成交笔数</div></div>
+      <div class="stat blue"><div class="v">5,760</div><div class="k">参与钱包数</div></div>
+      <div class="stat down"><div class="v">-$1,512</div><div class="k">全体吃单者合计净亏</div></div>
+    </div>
+    <p>关键事实：<b>赢家几乎全是脚本</b>——证据是「同价整秒连买」「开窗前 125 秒挂单」「双号时序完全一致」。散户整体是负和游戏。</p>
+  </div>
+
+  <!-- 三种玩法 -->
+  <div class="card">
+    <h2><span class="no">1</span>三种赢家玩法复盘</h2>
+    <p class="lead">Top20 赢家按打法分为三类：动量型 5 个、崩盘型 6 个、做市型 9 个。</p>
+
+    <div class="mode">
+      <h3>① 动量型 <span class="pill m">5 个赢家</span></h3>
+      <div class="num">+$5,213 <small>· 代表 kkcc3388（12h P&amp;L）</small></div>
+      <p>提前埋伏下一个窗口：开窗前 <b>-125 秒</b>就以 0.51 买入，收盘前 0.97 卖出。单方向、盘中卖，<b>单笔中位只有 $6</b>，靠高频小利累计。</p>
+      <div class="verdict no">✗ 不适合我们：吃的是毫秒级速度差，大陆网络延迟下不可能抢到。</div>
+    </div>
+
+    <div class="mode">
+      <h3>② 崩盘型 <span class="pill c">6 个赢家</span></h3>
+      <div class="num">+$4,957 <small>· 代表 acidic，单笔 7.7 倍</small></div>
+      <p>暴跌窗口低价买 Down：00:40（美东）窗口 BTC 暴跌，他以均价 <b>0.115</b> 买入 $642 的 Down，结算后变 <b>$5,599</b>，净赚 <b>$4,957</b>。Popguster、roziz. 同模板且时序一致，疑似同操作者双号。</p>
+      <div class="verdict maybe">△ 最有希望：不靠抢毫秒，靠「判断暴跌是否延续」，但长期期望待验证。</div>
+    </div>
+
+    <div class="mode">
+      <h3>③ 做市型 <span class="pill mm">9 个赢家</span></h3>
+      <div class="num">+$4,651 <small>· 代表 0x0cb0（匿名）</small></div>
+      <p>双边报价赚买卖价差：12 小时 <b>3,451 笔</b>成交，几乎每个窗口全覆盖，赢的是 spread 与返佣，单笔利润薄但极其高频。</p>
+      <div class="verdict no">✗ 不适合我们：需要做市基建、返佣资格、24×7 运行，资金与工程门槛高。</div>
+    </div>
+
+    <h3 style="margin:22px 0 10px; font-size:17px;">三者对比</h3>
+    <div class="tbl-wrap">
+      <table>
+        <tr><th>维度</th><th>动量型</th><th>崩盘型</th><th>做市型</th></tr>
+        <tr><td>代表玩家</td><td>kkcc3388</td><td>acidic / Popguster</td><td>0x0cb0</td></tr>
+        <tr><td>典型盈利</td><td>+$5,213 / 12h</td><td>单笔 +$4,957（7.7x）</td><td>+$4,651 / 12h</td></tr>
+        <tr><td>核心打法</td><td>提前埋伏 + 盘中卖</td><td>暴跌低价买 Down</td><td>双边报价赚 spread</td></tr>
+        <tr><td>速度要求</td><td class="bad">毫秒级（VPS）</td><td class="hl">低（分钟级判断）</td><td class="bad">低延迟报价</td></tr>
+        <tr><td>资金门槛</td><td>中</td><td class="hl">低</td><td class="bad">高（库存+返佣）</td></tr>
+        <tr><td>基建要求</td><td class="bad">高</td><td class="hl">低</td><td class="bad">高（24×7）</td></tr>
+        <tr><td>对我们的可复制性</td><td class="bad">✗</td><td class="warn">△ 待验证</td><td class="bad">✗</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- 崩盘型深度验证 -->
+  <div class="card">
+    <h2><span class="no">2</span>崩盘型的数据验证</h2>
+    <p class="lead">把 28.5 万笔成交里所有「低价买入并持有到结算」的单子模拟一遍，看深水买入到底赚不赚钱。</p>
+
+    <h3 style="font-size:16px; margin-bottom:6px;">① 越深的水，回报率越高</h3>
+    <p style="font-size:14px; color:var(--sub); margin-bottom:14px;">按买入价格分段：≤0.2 低价买入合计投入 $91,368，持有到期净赚 <b style="color:var(--green)">+$57,923（+63%）</b>；而 0.4–0.5 的中间价段几乎不赚钱。</p>
+    <div class="bars">
+      <div class="bar-row"><div class="lbl">0–0.1</div><div class="track"><div class="fill" style="--w:100%; width:100%; background:var(--green);"></div></div><div class="val" style="color:var(--green);">+115~130%</div></div>
+      <div class="bar-row"><div class="lbl">0.1–0.2</div><div class="track"><div class="fill" style="--w:44%; width:44%; background:var(--green);"></div></div><div class="val" style="color:var(--green);">+41~50%</div></div>
+      <div class="bar-row"><div class="lbl">0.2–0.3</div><div class="track"><div class="fill" style="--w:37%; width:37%; background:var(--green);"></div></div><div class="val" style="color:var(--green);">+36~43%</div></div>
+      <div class="bar-row"><div class="lbl">0.3–0.4</div><div class="track"><div class="fill" style="--w:22%; width:22%; background:var(--accent);"></div></div><div class="val" style="color:var(--accent);">+6~34%</div></div>
+      <div class="bar-row"><div class="lbl">0.4–0.5</div><div class="track"><div class="fill" style="--w:8%; width:8%; background:var(--sub);"></div></div><div class="val" style="color:var(--sub);">+1~12%</div></div>
+    </div>
+    <div class="legend"><span><i style="background:var(--green);"></i>回报率远高于成本</span><span><i style="background:var(--accent);"></i>回报一般</span><span><i style="background:var(--sub);"></i>几乎无利可图</span></div>
+
+    <h3 style="font-size:16px; margin:26px 0 6px;">② 但利润高度集中（彩票特征）</h3>
+    <p style="font-size:14px; color:var(--sub); margin-bottom:14px;">40 个深水窗口里只有 <b>14 个盈利</b>（合计 +$112,343），<b>26 个亏损</b>（合计 -$54,420）。前 3 个窗口就贡献了总利润的 <b>110%</b>——其余 37 个窗口整体是亏的。</p>
+    <div class="bars">
+      <div class="bar-row"><div class="lbl">盈利窗口</div><div class="track"><div class="fill" style="width:100%; background:var(--green);"></div></div><div class="val" style="color:var(--green);">+$112K</div></div>
+      <div class="bar-row"><div class="lbl">亏损窗口</div><div class="track"><div class="fill" style="width:48%; background:var(--red);"></div></div><div class="val" style="color:var(--red);">-$54K</div></div>
+      <div class="bar-row"><div class="lbl">前 3 窗口</div><div class="track"><div class="fill" style="width:57%; background:var(--amber);"></div></div><div class="val" style="color:var(--amber);">+$64K（110%）</div></div>
+    </div>
+
+    <h3 style="font-size:16px; margin:26px 0 6px;">③ 时序信号：什么情况下「深水会赢」</h3>
+    <p style="font-size:14px; color:var(--sub); margin-bottom:4px;">把每个窗口按「两侧是否都触底过 ≤0.2」分组，看先触底那一侧是不是最终赢家：</p>
+    <div class="donuts">
+      <div class="donut-box">
+        <svg width="130" height="130" viewBox="0 0 130 130">
+          <circle class="ring bg" cx="65" cy="65" r="54"></circle>
+          <circle class="ring fg" cx="65" cy="65" r="54" style="--dash:268;" stroke="var(--green)"></circle>
+          <text x="65" y="63" text-anchor="middle" font-size="26" font-weight="700" fill="var(--ink)">79%</text>
+          <text x="65" y="84" text-anchor="middle" font-size="12" fill="var(--sub)">先触底侧胜率</text>
+        </svg>
+        <div class="cap" style="color:var(--green);">两侧都触底（19 个窗口）</div>
+        <div class="sub2">波动大到双向触底 → 暴跌会延续</div>
+      </div>
+      <div class="donut-box">
+        <svg width="130" height="130" viewBox="0 0 130 130">
+          <circle class="ring bg" cx="65" cy="65" r="54"></circle>
+          <circle class="ring fg" cx="65" cy="65" r="54" style="--dash:0;" stroke="var(--red)"></circle>
+          <text x="65" y="63" text-anchor="middle" font-size="26" font-weight="700" fill="var(--ink)">0%</text>
+          <text x="65" y="84" text-anchor="middle" font-size="12" fill="var(--sub)">深水侧胜率</text>
+        </svg>
+        <div class="cap" style="color:var(--red);">仅单侧触底（21 个窗口）</div>
+        <div class="sub2">小插针后收回 → 必反转</div>
+      </div>
+    </div>
+    <p style="font-size:14.5px; margin-top:14px;">可能的可复制触发条件：<b>「波动大到两侧都触底 + 买先触底的那一侧」</b>。如果成立，这就是「暴跌延续」的入场信号。</p>
+
+    <div class="warn-box">
+      <b>必须先泼的冷水：</b>这只是一天、40 个窗口的数据，79% 与 0% 可能只是当天行情凑巧；模拟用的是事后成交价，没验证「信号出现时实际能按什么价买到」；崩盘日不常有，没行情时策略空转。结论成立之前，不许投真钱。
+    </div>
+  </div>
+
+  <!-- 为什么适合 -->
+  <div class="card">
+    <h2><span class="no">3</span>为什么崩盘型最适合我们</h2>
+    <p class="lead">对照我们的现实约束：大陆网络延迟高、资金小、没有做市基建。</p>
+    <div class="stats">
+      <div class="stat blue"><div class="v" style="font-size:17px;">不需要抢毫秒</div><div class="k">买的是「已经崩了」的价格，分钟级判断即可</div></div>
+      <div class="stat blue"><div class="v" style="font-size:17px;">小资金可参与</div><div class="k">$50 就能试，$500–1000 才谈得上策略</div></div>
+      <div class="stat blue"><div class="v" style="font-size:17px;">逻辑可验证</div><div class="k">信号明确（两侧触底），能用历史数据回测</div></div>
+    </div>
+    <p style="font-size:14.5px;">相比之下：动量型吃速度差（我们物理上做不到），做市型吃基建+返佣（我们没有）。崩盘型是唯一「门槛够得着、逻辑能验证」的玩法。</p>
+  </div>
+
+  <!-- 具体操作 -->
+  <div class="card">
+    <h2><span class="no">4</span>具体怎么操作</h2>
+    <p class="lead">四步走：先验证、再定义、后试水、勤复盘。顺序不能乱。</p>
+    <div class="steps">
+      <div class="step">
+        <div class="who">第一步 · 不花钱</div>
+        <h3>多天回测，验证触发条件</h3>
+        <p>拉取多天 5 分钟盘数据（可复用持续采集的公开数据集），复现「两侧触底 + 买先触底侧」信号，用<b>实际可成交价</b>模拟入场，统计 ≥100 个窗口的胜率与盈亏。</p>
+        <ul>
+          <li>通过标准：信号胜率明显高于价格隐含的胜率（如 0.15 买入需 &gt;15%）</li>
+          <li>不通过就停：彩票型期望为负时，任何资金都不该投入</li>
+        </ul>
+      </div>
+      <div class="step">
+        <div class="who">第二步 · 定规则</div>
+        <h3>定义触发条件与止损纪律</h3>
+        <p>信号：同一窗口内 Up 和 Down 都出现过 ≤0.2 → 买先触底的那一侧。配套硬纪律：单窗口 ≤$10、单日亏损 $50 停手、只在波动窗口出手、绝不追价。</p>
+      </div>
+      <div class="step">
+        <div class="who">第三步 · 试水</div>
+        <h3>$50–100 小额实盘验证手感</h3>
+        <p>把它当试验费，明确可能归零。每笔记录：信号出现时间、实际成交价、窗口结果。跑满两周再看数据说话，而不是凭感觉。</p>
+        <ul>
+          <li>试水档 $50–100：验证手感与信号</li>
+          <li>认真档 $500–1000：能扛连续失败，才谈策略</li>
+          <li>自动化档 $2,000+ 加国外服务器：才谈复制赢家打法</li>
+        </ul>
+      </div>
+      <div class="step">
+        <div class="who">第四步 · 迭代</div>
+        <h3>复盘沉淀，数据驱动继续或停止</h3>
+        <p>每天统计：信号出现次数、实际胜率、累计盈亏。连续数据证明正期望 → 加大投入；数据不支持 → 果断停。所有结果沉淀进项目知识库。</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    数据来源：Polymarket 公开接口 · 快照 2026-08-17（144 窗口 / 前 40 成交量窗口 28.5 万笔成交）<br>
+    原始数据：<code>docs/forensics/data/btc5m-2026-08-17/</code> · 知识库：<code>docs/forensics/KNOWLEDGE_BASE.md</code><br>
+    生成日期：2026-08-18 · 仅供研究展示，不构成投资建议
+  </footer>
+
+</div>
+</body>
+</html>
